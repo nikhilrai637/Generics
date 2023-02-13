@@ -4,11 +4,9 @@ import generics.User;
 
 public class Main {
     public static void main(String[] args) {
-        GenericList<User> userGenericList = new GenericList<User>();
-        userGenericList.add(new User());
-        userGenericList.add(new User());
-
-        User u = userGenericList.get(1);
-
+        GenericList<Integer> numbers = new GenericList<>();
+        numbers.add(1); //Boxing int to Integer
+        GenericList<Float> floatNumbers = new GenericList<>();
+        floatNumbers.add(1.0F);//Boxing float to Float
     }
 }
