@@ -2,12 +2,12 @@ package generics;
 
 public class List {
     private int count;
-    private int[] items = new int[10];
+    private Object[] items = new Object[10];
 
-    public void add(int item){
+    public void add(Object item){
         items[count++] = item;
     }
-    public int get(int index){
+    public Object get(int index){
         return items[index];
     }
 }
