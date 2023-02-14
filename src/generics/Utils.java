@@ -9,7 +9,7 @@ public class Utils {
         System.out.println("Key = " + key + " value = "+ value);
     }
 
-    public static void printList(GenericList<User> userList){
-        System.out.println(userList);
+    public static void printList(GenericList<?> userList){
+
     }
 }
