@@ -11,7 +11,7 @@ public class Utils {
     // CAP#1 {} extends User
     // Instructor extends User
 
-    public static void printList(GenericList<? super User> userList){
+    public static void printList(GenericList<? super Instructors> userList){
       // User user =  userList.get(0);
       // Instructors user = userList.get(0); // CAP#1 extends user is not a subclass of Instructors  but of User
       // userList.add(Cap) // np such capture class
