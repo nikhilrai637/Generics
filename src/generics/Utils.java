@@ -8,4 +8,8 @@ public class Utils {
     public static <K,V> void print(K key,V value){
         System.out.println("Key = " + key + " value = "+ value);
     }
+
+    public static void printList(GenericList<User> userList){
+        System.out.println(userList);
+    }
 }

@@ -1,11 +1,12 @@
-import generics.GenericList;
-import generics.List;
-import generics.User;
-import generics.Utils;
+import generics.*;
 
 public class Main {
     public static void main(String[] args) {
-        Utils.print(1,"One");
+         var instructors = new GenericList<Instructors>();
+         Utils.printList(instructors); // error because the GenericList<Instructors>
+                                      // is not the subclass of GenericList<Users>
+
+
     }
 
 }
