@@ -15,9 +15,7 @@ public class Utils {
       // User user =  userList.get(0);
       // Instructors user = userList.get(0); // CAP#1 extends user is not a subclass of Instructors  but of User
       // userList.add(Cap) // np such capture class
-
-
-        //Here  user and all its subclasses
+        // Here  user and all its subclasses
         userList.add(new User(0)); //
         userList.add(new Instructors(10));
 
