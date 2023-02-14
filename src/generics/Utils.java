@@ -8,8 +8,12 @@ public class Utils {
     public static <K,V> void print(K key,V value){
         System.out.println("Key = " + key + " value = "+ value);
     }
+    // CAP#1 {} extends User
+    // Instructor extends User
 
-    public static void printList(GenericList<?> userList){
-
+    public static void printList(GenericList<? extends User> userList){
+       User user =  userList.get(0);
+       Instructors user = userList.get(0); // CAP#1 extends user is not a subclass of Instructors  but of User
+       userList.add(Cap) // np such capture class
     }
 }
